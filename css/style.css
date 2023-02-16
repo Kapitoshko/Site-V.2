@@ -1,0 +1,90 @@
+/* Власний блок скидань стилів */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../images/background-3883181_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-section {
+  color: aliceblue;
+  text-align: center;
+  padding: 50px 0 0 0;
+  font-size: 60px;
+}
+
+.project_block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-inner {
+  width: 150px;
+  margin: 50px 50px 0 0;
+  text-align: center;
+}
+
+.project-logo {
+  margin: 20px auto 0;
+  /* background-color: #fff; */
+  width: 75px;
+  height: 75px;
+  /* border-radius: 5px; */
+}
+
+.project-logo-crowd {
+  margin: 45px auto 0;
+  /* background-color: #fff; */
+  width: 75px;
+  height: 50px;
+  /* border-radius: 5px; */
+}
+
+.project-name {
+  /* background-color: #93d6d6; */
+  color: aliceblue;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.project-apr {
+  /* background-color: rgb(80, 204, 68); */
+  color: aliceblue;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.project-buttom {
+  display: flex;
+  justify-content:space-around;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
